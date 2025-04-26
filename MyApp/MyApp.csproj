@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>img\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
+    <PackageReference Include="OpenCvSharp4" Version="4.10.0.20241108" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.10.0.20241108" />
+    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.10.0.20241108" />
+  </ItemGroup>
+  
+
+</Project>
